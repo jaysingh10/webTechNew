@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	background-color: aqua;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: 'Abel', sans-serif;
+}
+
+.page-title {
+	font-size: 65px;
+}
+
+.background-card {
+	display: flex;
+	background-color: aliceblue;
+	height: auto;
+	width: 90%;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.card {
+	margin: 40px;
+	box-shadow: 1px 1px 2px;
+	width: 40%;
+	transition: 0.7s;
+}
+
+.celebrity-card {
+	display: flex;
+	flex-wrap: wrap;
+	text-overflow: ellipsis;
+}
+
+.card:hover {
+	transform: scale(1.1);
+}
+
+.celebrity-heading {
+	font-size: 40px;
+}
+
+.celebrity-image {
+	margin: 15px 40px;
+	width: 37%;
+	height: 37%;
+	border-radius: 50%;
+}
+
+.celebrity-caption {
+	margin: 0px 10px;
+}
